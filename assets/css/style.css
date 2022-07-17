@@ -457,28 +457,64 @@ div#preloader {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#banner{
-  background: #A3D4F4;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 550px;
+.owl-carousel{
+  background-color: #A1D1F3;
+}
+.banner-wrap{
+  /* height: 500px;
+  width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
+  background: white;
+  margin: 60px;
 }
-.slider {
-  margin: auto;
-  width: 80%;
+.banner-item{
+  width: 992px;
+  padding: 30px;
 }
-.slick-prev:before, .slick-next:before {
-  color: #010c18 !important;
-  background: rgb(233, 233, 233);
-  border-radius: 50%;
-  padding: 10px;
+.group-b{
+  text-align: right;
+  margin-top: 30px !important;
 }
-.slick-slide img {
-  height: 400px;
-  margin: auto;
+.order-now{
+  background: #0E1739;
+  border: 1px solid #0E1739;
+  color: rgb(3, 216, 180);
+  padding: 7px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+.order-now:hover{
+  background: white;
+  color: #0E1739;
+}
+.view-details{
+  background: white;
+  border: 1px solid #0E1739;
+  color: #0E1739;
+  padding: 7px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+.view-details:hover{
+  background-color: #0E1739;
+  color: rgb(3, 216, 180);
+}
+.banner-content h3{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Livvic', sans-serif;
+}
+.banner-content p{
+  font-size: 20px;
+  font-weight: 300;
+}
+.dolor{
+  font-weight: 600;
+  font-size: 25px;
 }
 /*--------------------------------------------------------------
 # Support
@@ -494,7 +530,7 @@ div#preloader {
 }
 .support-child h3{
   font-family: 'Livvic', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 .support-child i{
   font-size: 35px;
@@ -511,11 +547,12 @@ div#preloader {
 .support-child i:hover{
   background: #0E1739;
 }
-.d a{
+.com-cart a{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 10px;
 }
 /*--------------------------------------------------------------
 # Services
@@ -919,7 +956,12 @@ div#preloader {
   width: 70px;
 }
 
-
+.copy-right, .policy, a{
+  color: #3EC1D5;
+}
+.copy-right, .policy, a:hover{
+  color: #0539AD;
+}
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
