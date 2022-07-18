@@ -1,0 +1,55 @@
+/* Banner */
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+#banner .owl-nav{
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+#banner .owl-nav .owl-prev{
+  left: -25px;
+}
+#banner .owl-nav .owl-next{
+  right: -25px;
+}
+#banner .owl-nav button.owl-prev{
+  position: absolute;
+  display: block;
+  background: #eee;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: rgb(148, 148, 148);
+  font-size: 31px;
+  line-height: 20px;
+  box-shadow: 0 8px 8px -4px lightblue !important;
+}
+
+#banner .owl-nav button.owl-next{
+  position: absolute;
+  display: block;
+  background: #eee;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: rgb(148, 148, 148);
+  font-size: 31px;
+  line-height: 20px;
+  box-shadow: 0 8px 8px -4px lightblue !important;
+}
+#banner .owl-nav .owl-prev span{
+  position: relative;
+  top: -2px;
+  left: -1px;
+}
+#banner .owl-nav .owl-next span{
+  position: relative;
+  top: -2px;
+  right: -1px;
+}
+.banner-wrap{
+  position: relative;
+}
