@@ -478,8 +478,6 @@ div#preloader {
   margin-top: 30px !important;
 }
 .order-now{
-  /* background: lightblue; */
-  /* border: 1px solid #0E1739; */
   background-image: linear-gradient(to right top, #051937, #002459, #002e7c, #0037a0, #0d3ec4);
   color: #ffffff;
   padding: 10px 15px;
