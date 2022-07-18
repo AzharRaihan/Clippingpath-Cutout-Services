@@ -223,7 +223,7 @@ div#preloader {
   background: #eee;
   position: sticky;
   top: 0;
-  box-shadow: 0 8px 8px -4px lightblue !important;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%) !important;
 
 }
 #header .logo h1 {
@@ -248,7 +248,7 @@ div#preloader {
 @media (max-width: 768px) {
   #header {
     height: 64px;
-    background: rgba(0, 0, 0, 0.8);
+    /* background: rgba(0, 0, 0, 0.8); */
   }
   #header .logo h1 {
     font-size: 28px;
@@ -485,7 +485,7 @@ div#preloader {
   font-size: 18px;
   font-weight: 400;
   border-radius: 3px;
-  box-shadow: 0 8px 8px -4px lightblue !important;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%) !important;
 }
 .order-now:hover{
   background: white;
@@ -516,7 +516,7 @@ div#preloader {
   background-color: white;
   border-radius: 10px;
   padding: 60px 0px;
-  box-shadow: 0 8px 8px -4px lightblue !important;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%) !important;
 }
 .support-child h3{
   font-family: 'Livvic', sans-serif;
@@ -545,6 +545,12 @@ div#preloader {
   align-items: center;
   flex-direction: column;
   margin: 10px;
+}
+.com-cart span{
+  font-weight: 600;
+}
+.com-cart h5{
+  font-weight: 600;
 }
 /*--------------------------------------------------------------
 # Services
