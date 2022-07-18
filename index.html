@@ -18,6 +18,7 @@
   <link href="assets/vendor/owl-carousel/css/owl.carousel.min.css" rel="stylesheet" >
   <link href="assets/vendor/owl-carousel/css/owl.theme.default.min.css" rel="stylesheet" >
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/owl-custom.css">
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -44,20 +45,57 @@
 
 
   <!-- ======= Banner ======= -->
-  <div class="owl-carousel">
-    <div class="banner-wrap">
-      <div class="banner-item">
-        <div class="row">
-          <div class="col-5">
-            <img src="assets/img/hero-carousel/1.png" alt=""> 
+  <div id="banner">
+    <div class="container">
+      <div class="owl-carousel">
+        <div class="banner-wrap">
+          <div class="banner-item">
+            <div class="row">
+              <div class="col-5">
+                <img src="assets/img/hero-carousel/1.png" alt=""> 
+              </div>
+              <div class="banner-content col-7 m-auto">
+                <h3 class="d-p-c">Clipping Path Services</h3>
+                <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong></p>
+                <h6 class="d-p-c"><strong>Starting at <span class="dolor">$40</span> Per Image</strong></h6>
+                <div class="group-b">
+                  <a href="" class="order-now">Order Now</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="banner-content col-7 m-auto">
-            <h3 class="d-p-c">Clipping Path Services</h3>
-            <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong></p>
-            <h6 class="d-p-c"><strong>Starting at <span class="dolor">$40</span> Per Image</strong></h6>
-            <div class="group-b">
-              <a href="" class="view-details">View Details</a>
-              <a href="" class="order-now">Order Now</a>
+        </div>
+        <div class="banner-wrap">
+          <div class="banner-item">
+            <div class="row">
+              <div class="col-5">
+                <img src="assets/img/hero-carousel/2.png" alt=""> 
+              </div>
+              <div class="banner-content col-7 m-auto">
+                <h3 class="d-p-c">Clipping Path Services</h3>
+                <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong></p>
+                <h6 class="d-p-c"><strong>Starting at <span class="dolor">$40</span> Per Image</strong></h6>
+                <div class="group-b">
+                  <a href="" class="order-now">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-wrap">
+          <div class="banner-item">
+            <div class="row">
+              <div class="col-5">
+                <img src="assets/img/hero-carousel/3.png" alt=""> 
+              </div>
+              <div class="banner-content col-7 m-auto">
+                <h3 class="d-p-c">Clipping Path Services</h3>
+                <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong></p>
+                <h6 class="d-p-c"><strong>Starting at <span class="dolor">$40</span> Per Image</strong></h6>
+                <div class="group-b">
+                  <a href="" class="order-now">Order Now</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -199,7 +237,7 @@
         <div class="row mb-4">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline services-head text-center">
-              <h2>Our Services</h2>
+              <h2 class="d-p-c">Our Services</h2>
             </div>
           </div>
         </div>
@@ -406,6 +444,7 @@
   <script src="assets/js/main.js"></script>
   <script>
     $('.owl-carousel').owlCarousel({
+      center: true,
       loop:true,
       margin:10,
       responsiveClass:true,
@@ -421,10 +460,11 @@
         1000:{
           items:1,
           nav:true,
-          loop:false
+          loop:true
         }
       }
     });
+    
   </script>
 </body>
 
